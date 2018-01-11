@@ -1,0 +1,23 @@
+
+
+// const findIndexInFields = (fields, value) => fields.getAll().indexOf(value)
+
+// const renderInclusions = ({ fields, meta: { error }, title, inclusions }) => {
+//     // console.dir(inclusions)
+    
+//     return (
+//         <div className="fl w-100 w-50-ns pa2">
+//             <h5>{title}</h5>
+//             {inclusions.map((inclusion, index) => (
+//                 <div key={`hospital_${inclusion}`}>
+//                     <input
+//                     type="checkbox"
+//                     value={inclusion}
+//                     onChange={e => e.target.checked ? fields.push(e.target.value) : fields.remove(findIndexInFields(fields, e.target.value))}
+//                     />
+//                     <label htmlFor={`hospital_${inclusion}`}>{inclusion}</label>
+//                 </div>
+//             ))}
+//         </div>
+//     )
+// }
